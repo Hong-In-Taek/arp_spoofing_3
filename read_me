@@ -1,0 +1,6 @@
+compile
+g++ -o arp_spoofing arp_spoofing -lpcap -lpthread
+
+
+exe :
+sudo ./arp_spoofing <interface> <my_ip> <target_ip> <gateway_ip> 
